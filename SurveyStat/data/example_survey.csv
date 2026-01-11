@@ -1,0 +1,226 @@
+Age,Gender,Education,Income,Weight
+25,Male,High School,35000,0.85
+34,Female,Bachelor,52000,1.12
+45,Male,Bachelor,68000,0.95
+28,Female,High School,31000,1.08
+52,Male,Graduate,85000,0.92
+31,Female,Bachelor,48000,1.05
+38,Male,High School,42000,0.98
+29,Female,Graduate,62000,1.15
+47,Male,Bachelor,71000,0.88
+33,Female,High School,38000,1.02
+41,Male,Graduate,78000,0.91
+26,Female,Bachelor,41000,1.18
+55,Male,High School,45000,0.86
+36,Female,Bachelor,55000,1.09
+43,Male,Graduate,72000,0.94
+30,Female,High School,36000,1.06
+48,Male,Bachelor,69000,0.89
+35,Female,Graduate,64000,1.11
+27,Male,High School,33000,0.87
+39,Female,Bachelor,51000,1.13
+46,Male,Graduate,76000,0.93
+32,Female,High School,39000,1.04
+51,Male,Bachelor,66000,0.90
+37,Female,Graduate,61000,1.07
+44,Male,High School,46000,0.96
+29,Female,Bachelor,44000,1.10
+40,Male,Graduate,73000,0.92
+34,Female,High School,37000,1.08
+53,Male,Bachelor,70000,0.85
+31,Female,Graduate,59000,1.14
+42,Male,High School,43000,0.97
+28,Female,Bachelor,47000,1.03
+49,Male,Graduate,77000,0.88
+35,Female,High School,40000,1.12
+38,Male,Bachelor,56000,0.95
+26,Female,Graduate,58000,1.16
+45,Male,High School,49000,0.91
+33,Female,Bachelor,50000,1.05
+41,Male,Graduate,74000,0.93
+30,Female,High School,34000,1.09
+47,Male,Bachelor,67000,0.87
+36,Female,Graduate,63000,1.11
+43,Male,High School,48000,0.94
+29,Female,Bachelor,45000,1.07
+50,Male,Graduate,80000,0.89
+32,Female,High School,32000,1.13
+39,Male,Bachelor,57000,0.96
+27,Female,Graduate,60000,1.08
+44,Male,High School,41000,0.90
+35,Female,Bachelor,53000,1.04
+48,Male,Graduate,75000,0.92
+31,Female,High School,35000,1.15
+37,Male,Bachelor,59000,0.88
+26,Female,Graduate,57000,1.10
+46,Male,High School,44000,0.95
+34,Female,Bachelor,49000,1.06
+41,Male,Graduate,72000,0.91
+29,Female,High School,33000,1.12
+52,Male,Bachelor,68000,0.86
+38,Female,Graduate,65000,1.09
+45,Male,High School,47000,0.93
+33,Female,Bachelor,51000,1.07
+40,Male,Graduate,71000,0.89
+28,Female,High School,30000,1.14
+49,Male,Bachelor,69000,0.94
+36,Female,Graduate,62000,1.08
+43,Male,High School,42000,0.90
+31,Female,Bachelor,48000,1.11
+54,Male,Graduate,79000,0.87
+27,Female,High School,31000,1.13
+39,Male,Bachelor,58000,0.96
+35,Female,Graduate,64000,1.05
+42,Male,High School,45000,0.92
+30,Female,Bachelor,46000,1.10
+47,Male,Graduate,76000,0.88
+34,Female,High School,38000,1.15
+41,Male,Bachelor,60000,0.91
+28,Female,Graduate,61000,1.09
+44,Male,High School,43000,0.95
+32,Female,Bachelor,52000,1.04
+51,Male,Graduate,78000,0.89
+37,Female,High School,36000,1.12
+45,Male,Bachelor,65000,0.93
+29,Female,Graduate,59000,1.07
+48,Male,High School,41000,0.90
+35,Female,Bachelor,50000,1.11
+40,Male,Graduate,73000,0.86
+33,Female,High School,34000,1.14
+46,Male,Bachelor,67000,0.94
+31,Female,Graduate,63000,1.08
+43,Male,High School,46000,0.91
+27,Female,Bachelor,47000,1.10
+50,Male,Graduate,77000,0.87
+36,Female,High School,32000,1.13
+39,Male,Bachelor,57000,0.95
+34,Female,Graduate,60000,1.09
+42,Male,High School,44000,0.92
+30,Female,Bachelor,49000,1.12
+47,Male,Graduate,75000,0.89
+33,Female,High School,37000,1.15
+45,Male,Bachelor,64000,0.90
+28,Female,Graduate,58000,1.06
+48,Male,High School,42000,0.93
+35,Female,Bachelor,53000,1.11
+41,Male,Graduate,72000,0.88
+32,Female,High School,35000,1.14
+49,Male,Bachelor,69000,0.91
+37,Female,Graduate,65000,1.07
+44,Male,High School,40000,0.94
+31,Female,Bachelor,51000,1.10
+52,Male,Graduate,80000,0.86
+29,Female,High School,33000,1.13
+38,Male,Bachelor,59000,0.95
+36,Female,Graduate,62000,1.08
+43,Male,High School,45000,0.89
+34,Female,Bachelor,55000,1.12
+46,Male,Graduate,74000,0.92
+30,Female,High School,31000,1.15
+40,Male,Bachelor,60000,0.90
+27,Female,Graduate,57000,1.09
+47,Male,High School,43000,0.93
+35,Female,Bachelor,52000,1.11
+41,Male,Graduate,71000,0.87
+33,Female,High School,38000,1.14
+48,Male,Bachelor,67000,0.91
+29,Female,Graduate,61000,1.05
+44,Male,High School,41000,0.96
+37,Female,Bachelor,54000,1.08
+50,Male,Graduate,78000,0.88
+32,Female,High School,34000,1.13
+39,Male,Bachelor,58000,0.90
+36,Female,Graduate,64000,1.10
+45,Male,High School,46000,0.94
+31,Female,Bachelor,50000,1.12
+42,Male,Graduate,73000,0.89
+28,Female,High School,32000,1.15
+47,Male,Bachelor,66000,0.91
+35,Female,Graduate,63000,1.07
+43,Male,High School,44000,0.93
+34,Female,Bachelor,56000,1.11
+49,Male,Graduate,77000,0.86
+30,Female,High School,36000,1.14
+38,Male,Bachelor,60000,0.92
+33,Female,Graduate,62000,1.09
+46,Male,High School,42000,0.90
+37,Female,Bachelor,53000,1.13
+41,Male,Graduate,72000,0.87
+29,Female,High School,35000,1.10
+44,Male,Bachelor,65000,0.95
+36,Female,Graduate,61000,1.08
+48,Male,High School,48000,0.89
+32,Female,Bachelor,57000,1.12
+51,Male,Graduate,79000,0.91
+27,Female,High School,33000,1.15
+39,Male,Bachelor,59000,0.88
+35,Female,Graduate,64000,1.06
+45,Male,High School,45000,0.93
+31,Female,Bachelor,54000,1.11
+42,Male,Graduate,74000,0.90
+28,Female,High School,37000,1.14
+47,Male,Bachelor,68000,0.92
+34,Female,Graduate,66000,1.09
+43,Male,High School,41000,0.87
+36,Female,Bachelor,58000,1.13
+50,Male,Graduate,80000,0.89
+30,Female,High School,34000,1.10
+38,Male,Bachelor,61000,0.95
+33,Female,Graduate,65000,1.08
+46,Male,High School,47000,0.91
+37,Female,Bachelor,56000,1.12
+41,Male,Graduate,73000,0.88
+29,Female,High School,32000,1.15
+44,Male,Bachelor,64000,0.90
+35,Female,Graduate,63000,1.07
+48,Male,High School,44000,0.93
+32,Female,Bachelor,55000,1.11
+52,Male,Graduate,78000,0.86
+27,Female,High School,38000,1.14
+39,Male,Bachelor,60000,0.92
+36,Female,Graduate,67000,1.09
+45,Male,High School,49000,0.89
+31,Female,Bachelor,57000,1.13
+42,Male,Graduate,75000,0.90
+28,Female,High School,35000,1.15
+47,Male,Bachelor,69000,0.91
+34,Female,Graduate,68000,1.10
+43,Male,High School,42000,0.87
+37,Female,Bachelor,59000,1.12
+49,Male,Graduate,79000,0.94
+30,Female,High School,39000,1.08
+38,Male,Bachelor,62000,0.88
+33,Female,Graduate,66000,1.11
+46,Male,High School,50000,0.90
+35,Female,Bachelor,58000,1.14
+41,Male,Graduate,74000,0.92
+29,Female,High School,36000,1.13
+44,Male,Bachelor,67000,0.89
+36,Female,Graduate,69000,1.10
+48,Male,High School,51000,0.91
+32,Female,Bachelor,60000,1.15
+51,Male,Graduate,81000,0.87
+27,Female,High School,40000,1.12
+39,Male,Bachelor,63000,0.93
+34,Female,Graduate,70000,1.09
+45,Male,High School,46000,0.88
+37,Female,Bachelor,61000,1.14
+42,Male,Graduate,76000,0.90
+28,Female,High School,41000,1.11
+47,Male,Bachelor,70000,0.92
+35,Female,Graduate,72000,1.13
+43,Male,High School,48000,0.89
+31,Female,Bachelor,64000,1.10
+50,Male,Graduate,82000,0.86
+30,Female,High School,42000,1.15
+38,Male,Bachelor,65000,0.91
+33,Female,Graduate,71000,1.08
+46,Male,High School,52000,0.87
+36,Female,Bachelor,62000,1.12
+41,Male,Graduate,77000,0.94
+29,Female,High School,43000,1.09
+44,Male,Bachelor,68000,0.88
+37,Female,Graduate,73000,1.11
+48,Male,High School,53000,0.90
+32,Female,Bachelor,63000,1.14
+52,Male,Graduate,83000,0.85
