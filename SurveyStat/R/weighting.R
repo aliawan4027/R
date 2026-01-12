@@ -54,6 +54,7 @@ apply_weights <- function(data, weight_col) {
 #' @param weight_col Character string specifying column name containing weights
 #' @return Numeric weighted mean
 #' @export
+#' @importFrom stats complete.cases
 #' @examples
 #' data <- data.frame(income = c(50000, 75000, 100000), weight = c(1.2, 0.8, 1.0))
 #' weighted_income <- weighted_mean(data, "income", "weight")
@@ -104,6 +105,7 @@ weighted_mean <- function(data, target_col, weight_col) {
 #' @param weight_col Character string specifying column name containing weights
 #' @return Numeric weighted total
 #' @export
+#' @importFrom stats complete.cases
 #' @examples
 #' data <- data.frame(income = c(50000, 75000, 100000), weight = c(1000, 800, 1200))
 #' total_income <- weighted_total(data, "income", "weight")
@@ -161,7 +163,11 @@ weighted_total <- function(data, target_col, weight_col) {
 #'   gender = c(Male = 1000000, Female = 1050000),
 #'   education = c(HighSchool = 800000, Bachelor = 900000, Graduate = 350000)
 #' )
-#' data <- data.frame(gender = c("Male", "Female"), education = c("HighSchool", "Bachelor"), weight = c(1, 1))
+#' data <- data.frame(
+#'   gender = c("Male", "Female", "Male", "Female", "Male"), 
+#'   education = c("HighSchool", "Bachelor", "Bachelor", "HighSchool", "Graduate"),
+#'   weight = c(1, 1, 1, 1, 1)
+#' )
 #' raked_data <- rake_weights(data, targets, "weight")
 rake_weights <- function(data, population_targets, weight_col = "weight") {
   # Input validation

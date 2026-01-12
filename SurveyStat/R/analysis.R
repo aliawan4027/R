@@ -8,8 +8,13 @@
 #' @param weight_col Character string specifying column name containing weights (optional)
 #' @return A list containing descriptive statistics
 #' @export
+#' @importFrom stats median sd complete.cases
 #' @examples
-#' data <- data.frame(age = c(25, 30, 35), gender = c("M", "F", "M"))
+#' data <- data.frame(
+#'   age = c(25, 30, 35),
+#'   gender = c("M", "F", "M"),
+#'   weight = c(1.2, 0.8, 1.0)
+#' )
 #' desc <- describe_survey(data)
 #' desc_weighted <- describe_survey(data, "weight")
 describe_survey <- function(data, weight_col = NULL) {
@@ -168,6 +173,7 @@ frequency_table <- function(data, col, weight_col = NULL) {
 #' @param weight_col Character string specifying column name containing weights (optional)
 #' @return A list containing cross-tabulation and chi-square test results
 #' @export
+#' @importFrom stats chisq.test complete.cases
 #' @examples
 #' data <- data.frame(gender = c("M", "F", "M", "F"), 
 #'                    education = c("HS", "College", "HS", "College"))

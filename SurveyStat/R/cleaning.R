@@ -6,6 +6,7 @@
 #' @param data A data.frame containing survey data
 #' @return A data.frame with duplicates removed
 #' @export
+#' @importFrom stats median
 #' @examples
 #' data <- data.frame(id = c(1, 2, 2, 3), age = c(25, 30, 30, 35))
 #' clean_data <- remove_duplicates(data)

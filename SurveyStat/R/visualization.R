@@ -9,6 +9,8 @@
 #' @param add_density Logical whether to add density curve (default: TRUE)
 #' @return A ggplot object
 #' @export
+#' @importFrom ggplot2 ggplot aes aes_string geom_histogram geom_density aes after_stat labs theme theme_minimal element_text element_line element_blank
+#' @importFrom stats density
 #' @examples
 #' data <- data.frame(age = rnorm(100, 35, 10))
 #' hist_plot <- plot_histogram(data, "age")
@@ -79,6 +81,9 @@ plot_histogram <- function(data, col, bins = 30, add_density = TRUE) {
 #' @param show_percentages Logical whether to show percentage labels (default: TRUE)
 #' @return A ggplot object
 #' @export
+#' @importFrom dplyr %>% group_by summarise mutate n
+#' @importFrom rlang sym
+#' @importFrom ggplot2 ggplot aes aes_string geom_bar geom_text labs theme theme_minimal element_text element_blank element_line aes ylim
 #' @examples
 #' data <- data.frame(gender = c("M", "F", "M", "F"), weight = c(1, 1.2, 0.8, 1.1))
 #' bar_plot <- plot_weighted_bar(data, "gender")
@@ -107,17 +112,17 @@ plot_weighted_bar <- function(data, col, weight_col = NULL, show_percentages = T
   # Calculate frequencies
   if (!is.null(weight_col)) {
     freq_data <- plot_data %>%
-      group_by(.data[[col]]) %>%
+      group_by(!!sym(col)) %>%
       summarise(Frequency = sum(.data[[weight_col]], na.rm = TRUE), .groups = "drop") %>%
-    mutate(Percentage = Frequency / sum(Frequency) * 100)
+      mutate(Percentage = Frequency / sum(Frequency) * 100)
     
     y_label <- "Weighted Frequency"
     title_suffix <- " (Weighted)"
   } else {
     freq_data <- plot_data %>%
-      group_by(.data[[col]]) %>%
+      group_by(!!sym(col)) %>%
       summarise(Frequency = n(), .groups = "drop") %>%
-    mutate(Percentage = Frequency / sum(Frequency) * 100)
+      mutate(Percentage = Frequency / sum(Frequency) * 100)
     
     y_label <- "Frequency"
     title_suffix <- " (Unweighted)"
@@ -168,6 +173,8 @@ plot_weighted_bar <- function(data, col, weight_col = NULL, show_percentages = T
 #' @param add_points Logical whether to add individual data points (default: TRUE)
 #' @return A ggplot object
 #' @export
+#' @importFrom ggplot2 ggplot aes aes_string geom_boxplot geom_jitter labs theme theme_minimal element_text element_line element_blank scale_x_discrete
+#' @importFrom stats complete.cases
 #' @examples
 #' data <- data.frame(age = c(25, 30, 35, 40, 45), gender = c("M", "F", "M", "F", "M"))
 #' box_plot <- plot_boxplot(data, "age")
