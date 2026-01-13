@@ -11,4 +11,5 @@
 #'   \item{Weight}{Survey weight}
 #' }
 #' @source Simulated data for demonstration purposes
+#' @keywords datasets
 "example_survey"

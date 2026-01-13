@@ -1,7 +1,7 @@
 Package: SurveyStat
 Type: Package
 Title: Tools for Survey Data Cleaning, Weighting and Analysis
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: 
     person("Muhammad", "Ali", email = "aliawan1170@gmail.com", role = c("aut", "cre"))
 Description: A lightweight R package providing utilities for cleaning survey data,
